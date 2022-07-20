@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Employment portal</title>
+<style>
+body {
+  background-color:violet;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  color:red;
+  text-align: left;
+  font-size:20px;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Personal details</h1>
+<p>Name:<input></p>
+<p>DOB:<input></p>
+<p>Address:<input></p>
+<p>Qualification:<input></p>
+<p>Experience:<input></p>
+<p>Current CTC:<input></p>
+<p>Expected CTC:<input></p>
+
+<style>
+table,th,td
+ { border:2px solid blue;
+  border-collapse:collapse;
+}
+th{
+color:green;
+}
+td{
+color:brown;
+}
+</style>
+
+<table>
+  <tr>
+    <th>Qualification</th>
+    <th>Board</th>
+    <th>Percentage </th>
+    <th>Year of Passing</th>
+  </tr>
+  <tr>
+    <td>B.E </td>
+    <td>  </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>HSC</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>SSLC</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+<br>
+<button type="button" onclick="abc()">save</button>
+
+</body>
+</html>
+<script>
+function abc(){
+alert("saved");
+}
+</script>
